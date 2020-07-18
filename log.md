@@ -27,14 +27,14 @@ The challenge includes several projects:
 #### While preparing my flutter sdk, playground and projects, i found a Flutter Version Management package
 I'll have a ['spike'](https://en.wikipedia.org/wiki/Spike_(software_development)) on this later in the 100 days of flutter coding.
 
-https://pub.dev/packages/fvm
-https://github.com/flutter/flutter/wiki/Flutter-build-release-channels
-https://flutter.dev/docs/development/tools/sdk/releases
+https://pub.dev/packages/fvm  
+https://github.com/flutter/flutter/wiki/Flutter-build-release-channels  
+https://flutter.dev/docs/development/tools/sdk/releases  
 
 #### Some inspirations 
-[Flutter UI Tutorial | Login and Signup Page Design & Animation - day 23](https://www.youtube.com/watch?v=Hq7Wj6DshNs&list=PLf-j0Hs0PF3u5WSVX_x3GzU0sAP6oIwA5&index=23)
-https://github.com/erluxman/awesomefluttertips
-https://www.hackingwithswift.com/100/swiftui
+[Flutter UI Tutorial | Login and Signup Page Design & Animation - day 23](https://www.youtube.com/watch?v=Hq7Wj6DshNs&list=PLf-j0Hs0PF3u5WSVX_x3GzU0sAP6oIwA5&index=23)  
+https://github.com/erluxman/awesomefluttertips  
+https://www.hackingwithswift.com/100/swiftui  
 https://mobile.twitter.com/search?q=100DaysOfCode%20flutter&src=typed_query
 
 #### Today's Progress:
@@ -57,29 +57,29 @@ In my ESCR project i use the [shared_preferences_settings](https://pub.dev/packa
 Lost in state management. Cloned and tested so many different flutter architecture examples. Read and watched countless tutorials. I am confused.
 
 #### Links:
-https://flutter.dev/docs/development/data-and-backend/state-mgmt/options
-https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple
-https://github.com/rrousselGit/provider
-https://resocoder.com/2020/04/09/flutter-state-management-tutorial-provider-changenotifier-bloc-mobx-more/
-https://resocoder.com/2019/10/26/flutter-bloc-library-tutorial-1-0-0-stable-reactive-state-management/
-https://bloclibrary.dev/#/fluttertodostutorial
-https://bloclibrary.dev/#/flutterfirestoretodostutorial
-https://github.com/felangel/bloc/tree/master/examples
-https://www.youtube.com/watch?v=knMvKPKBzGE
-https://pub.dev/packages/hydrated_bloc
-https://www.youtube.com/watch?v=vSOpZd_FFEY
-https://www.raywenderlich.com/4074597-getting-started-with-the-bloc-pattern
-https://medium.com/flutter-community/making-sense-all-of-those-flutter-providers-e842e18f45dd
-https://www.raywenderlich.com/6373413-state-management-with-provider
-https://www.filledstacks.com/post/flutter-state-management-with-stacked/
-https://github.com/FilledStacks/stacked-example/tree/master
-https://riverpod.dev (experimental provider rewrite)
-https://mobx.netlify.app/getting-started
-https://github.com/mobxjs/mobx.dart
-https://github.com/mobxjs/mobx.dart/blob/master/mobx_examples/lib/todos/todo_widgets.dart
-https://www.youtube.com/watch?v=hio1Avj5lOg
-https://www.youtube.com/watch?v=8j7W91ZJuV0
-https://circleci.com/blog/state-management-for-flutter-apps-with-mobx/ 
+https://flutter.dev/docs/development/data-and-backend/state-mgmt/options  
+https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple  
+https://github.com/rrousselGit/provider  
+https://resocoder.com/2020/04/09/flutter-state-management-tutorial-provider-changenotifier-bloc-mobx-more/  
+https://resocoder.com/2019/10/26/flutter-bloc-library-tutorial-1-0-0-stable-reactive-state-management/  
+https://bloclibrary.dev/#/fluttertodostutorial  
+https://bloclibrary.dev/#/flutterfirestoretodostutorial  
+https://github.com/felangel/bloc/tree/master/examples  
+https://www.youtube.com/watch?v=knMvKPKBzGE  
+https://pub.dev/packages/hydrated_bloc  
+https://www.youtube.com/watch?v=vSOpZd_FFEY  
+https://www.raywenderlich.com/4074597-getting-started-with-the-bloc-pattern  
+https://medium.com/flutter-community/making-sense-all-of-those-flutter-providers-e842e18f45dd  
+https://www.raywenderlich.com/6373413-state-management-with-provider  
+https://www.filledstacks.com/post/flutter-state-management-with-stacked/  
+https://github.com/FilledStacks/stacked-example/tree/master  
+https://riverpod.dev (experimental provider rewrite)  
+https://mobx.netlify.app/getting-started  
+https://github.com/mobxjs/mobx.dart  
+https://github.com/mobxjs/mobx.dart/blob/master/mobx_examples/lib/todos/todo_widgets.dart  
+https://www.youtube.com/watch?v=hio1Avj5lOg  
+https://www.youtube.com/watch?v=8j7W91ZJuV0  
+https://circleci.com/blog/state-management-for-flutter-apps-with-mobx/  
 
 #### Thoughts:
 I think this basic research takes more time than i thought.
@@ -99,29 +99,29 @@ Playing again with moor code/examples. Upgraded the [ResoCoder/flutter-moor-tuto
 The [flutter moor todo example from Rody Davis](https://github.com/rodydavis/moor_shared) uses rxdart and 'blocs'.
 
 #### Links flutter moor:
-https://moor.simonbinder.eu/docs/getting-started/
-https://github.com/simolus3/moor/tree/master/moor_flutter/example
-https://resocoder.com/2019/07/17/moor-room-for-flutter-3-foreign-keys-joins-migrations-fluent-sqlite-database/
+https://moor.simonbinder.eu/docs/getting-started/  
+https://github.com/simolus3/moor/tree/master/moor_flutter/example  
+https://resocoder.com/2019/07/17/moor-room-for-flutter-3-foreign-keys-joins-migrations-fluent-sqlite-database/  
 
 #### Links Get/GetX:
-[Amateur Coder - Complete GetX State Management](https://www.youtube.com/watch?v=CNpXbeI_slw)
-https://github.com/jonataslaw/getx
-https://github.com/tadaspetra/getx_examples
-https://pub.dev/documentation/get/latest/
-https://github.com/loicgeek/todo_getx
-https://medium.com/@loicgeek/flutter-how-to-create-a-todo-app-using-firebase-firestore-and-firebase-authentication-with-getx-6a9265ca5f00
+[Amateur Coder - Complete GetX State Management](https://www.youtube.com/watch?v=CNpXbeI_slw)  
+https://github.com/jonataslaw/getx  
+https://github.com/tadaspetra/getx_examples  
+https://pub.dev/documentation/get/latest/  
+https://github.com/loicgeek/todo_getx  
+https://medium.com/@loicgeek/flutter-how-to-create-a-todo-app-using-firebase-firestore-and-firebase-authentication-with-getx-6a9265ca5f00  
 
 #### Thoughts:
 Routing with GetX looks so easy. And i'll fixed some null problems in the todo_getx code to run it on the Simulator. All in all a good day with more flutter moor findings.
 
 #### Todo:
-- https://github.com/kauemurakami/getx_snippets_extension
-https://github.com/kauemurakami/getx_pattern
-https://www.youtube.com/watch?v=RaqPIoJSTtI
+- https://github.com/kauemurakami/getx_snippets_extension  
+https://github.com/kauemurakami/getx_pattern  
+https://www.youtube.com/watch?v=RaqPIoJSTtI  
 
 #### ToLookAtLater:
-[Deploying App to the App Store](https://www.youtube.com/watch?v=NT-W5sAarco)
-https://github.com/cybdom/storage_manager
+[Deploying App to the App Store](https://www.youtube.com/watch?v=NT-W5sAarco)  
+https://github.com/cybdom/storage_manager  
 https://www.raywenderlich.com/10794904-internationalizing-and-localizing-your-flutter-app
 
 #### Todays Takeaway:
