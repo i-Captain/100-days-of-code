@@ -155,13 +155,34 @@ Feels demanding to switch between the projects. I hope this is the 'project clea
 ## Day 0.4 - 19. July 2020
 
 #### Today's Progress:
+Created new flutter project. Checked my ['dart settings'](https://dartcode.org/docs/recommended-settings/) in vscode. Used (regex) search and replace ```//.*``` to remove the flutter main.dart boilerplate comments.
+
+Implemented [analysis_options.yaml](https://github.com/flutter/flutter/blob/master/analysis_options.yaml) which was one step from [Rémi Rousselets article](https://dash-overflow.net/articles/getting_started/). The linting step is a later todo.
+
+Played with [json](https://flutter.dev/docs/development/data-and-backend/json) and [shared_preferences](https://pub.dev/packages/shared_preferences)
+
+Moved and fixed first code from old project to eat_sleep_repeat.
+
 #### Thoughts:
+Renamed project to eat_sleep_repeat. The code part is too specific for an app name but was really a lifesaver during the past few months.
+
+From [shared_preferences](https://pub.dev/packages/shared_preferences): There is no guarantee that writes will be persisted to disk after returning, so this plugin must not be used for storing critical data.
+
+Not critical, but a bad user experience, if the stored  'motivations' are lost.
+
+So there is a todo, maybe the [localstorage package](https://pub.dev/packages/localstorage/) will solve this. 
+
 #### Links:
+https://medium.com/better-programming/flutter-how-to-save-objects-in-sharedpreferences-b7880d0ee2e4  
+https://codingwithjoe.com/flutter-saving-and-restoring-with-sharedpreferences/
+
 #### ToDo:
-#### ToLookAtLater:
+Test the [localstorage package](https://pub.dev/packages/localstorage/)  
+Fix wired output [link](https://stackoverflow.com/questions/55399209/update-flutter-dependencies-in-pub-cache)
+
 #### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+Enabled [flutter-ui-guides](https://dartcode.org/releases/v3-1/#preview-flutter-ui-guides) (restart vscode) and installed [pubspec-assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist) this could be very useful. Less pub.dev search package and copy to pubspec.yaml
+
 
 ## Day 0.5 - 20. July 2020
 
