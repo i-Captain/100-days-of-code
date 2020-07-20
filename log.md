@@ -185,13 +185,21 @@ Enabled [flutter-ui-guides](https://dartcode.org/releases/v3-1/#preview-flutter-
 ## Day 0.5 - 20. July 2020
 
 #### Today's Progress:
+Implemented a drawer. Found after i watched a [talk](https://youtu.be/FCyoHclCqc8) from the flutter europe conference 2020. [drawer_challenge](https://github.com/MarcinusX/drawer_challenge)
+
+Added 'GetX' and implemented first controller for the logic stuff.
+
+Played with sliders (link below)
+
 #### Thoughts:
+I'll have to reduce the features for stept 1. Remembered the agile [skateboard](https://m.dotdev.co/the-agile-bicycle-829a83b18e7) 
+
 #### Links:
+https://pub.dev/packages/flutter_xlider/  
+https://fidev.io/complex-ui/
+
 #### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+Use/Test [get_storage](https://pub.dev/packages/get_storage) for step 1 instead of shared_preferences or the localstorage package
 
 ## Day 0.6 - 21. July 2020
 
