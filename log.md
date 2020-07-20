@@ -11,10 +11,8 @@ The challenge includes several projects:
 - Work Life Balance app (flutter moor)
 - simple flutter timetracking app
 - ESCR (motivation flutter app)
-- Simple Workout/Running (watchos app)
-- Simple mindful minutes (watchos app)
 
-> Thats quite a scope. Undoable i think... (-; but X preparation days plus 100 days means 150 to 300 hours... We'll see what's possible.
+> Thats quite a scope, but X preparation days plus 100 days means 150 to 300 hours... We'll see what's possible.
 
 ### Additional tasks:
 - Design
