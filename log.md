@@ -204,13 +204,19 @@ Use/Test [get_storage](https://pub.dev/packages/get_storage) for step 1 instead 
 ## Day 0.6 - 21. July 2020
 
 #### Today's Progress:
+Fixed 'disable onDoubleTap' in HomeView if drawer is open. Removed sliders. Implemented get_storage to 'observe' the TextField value onChange and save it.
+
 #### Thoughts:
-#### Links:
+Lost in GetX. It's late. Let go and start fresh tomorrow.
+
 #### ToDo:
-#### ToLookAtLater:
+Use a model with 'word', 'xcord','ycord' etc.
+
 #### Todays Takeaway:
-#### Link(s) to work...
+Always a good idea to 'inspect' the used widget (see highlight;)
+
 > **Highlight:**
+There is a maxLength for TextField...
 
 ## Day 0.7 - 22. July 2020
 
