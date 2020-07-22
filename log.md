@@ -221,13 +221,24 @@ There is a maxLength for TextField...
 ## Day 0.7 - 22. July 2020
 
 #### Today's Progress:
+A first alpha version is ready. Took much too long. Struggeled with CustomPainter and my RxSetting model. Code is still to cleanup and refactor.
+
 #### Thoughts:
-#### Links:
+I am looking forward to use GetX with firebase or flutter_moor. 
+
 #### ToDo:
-#### ToLookAtLater:
+Cleanup/refactor code. Add initial '-> swipe' word/content when app is installed.  
+Create new App Icon, add App Icon and Splashscreen.  
+Add little 'help' to explain the input and the double click 'action'.  
+A litte 'close' icon int he drawer.
+
 #### Todays Takeaway:
-#### Link(s) to work...
+```
+final Random _random = Random();
+int next(int min, int max) => min + _random.nextInt(max - min);
+```
 > **Highlight:**
+App is ready to run on my iPhone.
 
 ## Day 0.8 - 23. July 2020
 
