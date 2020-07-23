@@ -175,8 +175,8 @@ https://medium.com/better-programming/flutter-how-to-save-objects-in-sharedprefe
 https://codingwithjoe.com/flutter-saving-and-restoring-with-sharedpreferences/
 
 #### ToDo:
-Test the [localstorage package](https://pub.dev/packages/localstorage/)  
-Fix wired output [link](https://stackoverflow.com/questions/55399209/update-flutter-dependencies-in-pub-cache)
+- Test the [localstorage package](https://pub.dev/packages/localstorage/)  
+- Fix wired output [link](https://stackoverflow.com/questions/55399209/update-flutter-dependencies-in-pub-cache)
 
 #### Todays Takeaway:
 Enabled [flutter-ui-guides](https://dartcode.org/releases/v3-1/#preview-flutter-ui-guides) (restart vscode) and installed [pubspec-assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist) this could be very useful. Less pub.dev search package and copy to pubspec.yaml
@@ -199,7 +199,7 @@ https://pub.dev/packages/flutter_xlider/
 https://fidev.io/complex-ui/
 
 #### ToDo:
-Use/Test [get_storage](https://pub.dev/packages/get_storage) for step 1 instead of shared_preferences or the localstorage package
+- Use/Test [get_storage](https://pub.dev/packages/get_storage) for step 1 instead of shared_preferences or the localstorage package
 
 ## Day 0.6 - 21. July 2020
 
@@ -210,7 +210,7 @@ Fixed 'disable onDoubleTap' in HomeView if drawer is open. Removed sliders. Impl
 Lost in GetX. It's late. Let go and start fresh tomorrow.
 
 #### ToDo:
-Use a model with 'word', 'xcord','ycord' etc.
+- Use a model with 'word', 'xcord','ycord' etc.
 
 #### Todays Takeaway:
 Always a good idea to 'inspect' the used widget (see highlight;)
@@ -227,10 +227,10 @@ A first alpha version is ready. Took much too long. Struggeled with CustomPainte
 I am looking forward to use GetX with firebase or flutter_moor. 
 
 #### ToDo:
-Cleanup/refactor code. Add initial '-> swipe' word/content when app is installed.  
-Create new App Icon, add App Icon and Splashscreen.  
-Add little 'help' to explain the input and the double click 'action'.  
-A litte 'close' icon int he drawer.
+- Cleanup/refactor code. Add initial '-> swipe' word/content when app is installed.  
+- Create new App Icon, add App Icon and Splashscreen.  
+- Add little 'help' to explain the input and the double click 'action'.  
+- A litte 'close' icon int he drawer.
 
 #### Todays Takeaway:
 ```
@@ -243,13 +243,38 @@ App is ready to run on my iPhone.
 ## Day 0.8 - 23. July 2020
 
 #### Today's Progress:
+Created first quick draft of the app icon with the [Google Font Chango](https://fonts.google.com/specimen/Chango). Added [.ai](assets/app-icon/app-icon-1024-template.ai) and [.psd](assets/app-icon/app-icon-1024-template.psd) templates to this assets folder.
+
+Downloaded the Photoshop Download from [Apples Human Interface Guidelines](https://developer.apple.com/design/resources/) ~ 500 MB
+
+There is a Template-AppIcons-iOS.psd which gives an idea for the proportions of your app icon.
+
+![](assets/0.8-apple-design-resources-app-icon-template.png)
+![](assets/0.8-ESR-Template-AppIcons-iOS.png)
+
+After broken builds (provision profil something) and a reboot of my macbook and the iphone, i was able to build the app on my iPhone. There are 42 warnings... for the deleted shared_preferences, Setter for 'isStatusBarHidden' was deprecated..., Initialization of variable 'flutter_native_splash' was never used... [explanation](https://github.com/matwright/AnimalFarmRevisionApp/issues/36) which links to the [flutter build modes](https://flutter.dev/docs/testing/build-modes).
+
+Inspected the app 'tree' with [devtools](https://stackoverflow.com/questions/53381536/how-to-use-flutters-widget-inspector-in-visual-studio-code) because on the iPhone there was a thin white line when the drawer was open.
+
+For this simple project i use a constant darkColor. Next project will have a theme folder with colors and text definitions... 
+
 #### Thoughts:
+There is always 'some time' that is not calc
+
 #### Links:
+https://pub.dev/packages/animated_text_kit
+
 #### ToDo:
+- Implement more Google Fonts with random font on doubleTap.  
+- Read about deployment https://flutter.dev/docs/deployment/ios
+- repaint Textholder after changing the device orientation
+- save finishedTutorial in box(storage), so that it only shows after first open drawer.
+
 #### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
+https://web.dev/variable-fonts/
+
 > **Highlight:**
+The app 'runs' on my iPhone.
 
 ## Day 0.9 - 24. July 2020
 
