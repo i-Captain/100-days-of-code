@@ -258,11 +258,21 @@ Inspected the app 'tree' with [devtools](https://stackoverflow.com/questions/533
 
 For this simple project i use a constant darkColor. Next project will have a theme folder with colors and text definitions... 
 
+Played with focusNode and [SingleChildScrollView](https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html)
+
+Watched yesterday after last commit some youtube videos for App Store deployment.
+
 #### Thoughts:
 There is always 'some time' that is not calc
 
 #### Links:
-https://pub.dev/packages/animated_text_kit
+https://pub.dev/packages/animated_text_kit  
+https://www.youtube.com/watch?v=YPLs3xrDcm0  
+https://www.youtube.com/watch?v=NFTaWkUtD34  
+https://www.youtube.com/watch?v=NT-W5sAarco  
+https://www.youtube.com/watch?v=o2KveVr7adg  
+https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html  
+https://flutter.dev/docs/cookbook/forms/focus
 
 #### ToDo:
 - Implement more Google Fonts with random font on doubleTap.  
@@ -271,21 +281,54 @@ https://pub.dev/packages/animated_text_kit
 - save finishedTutorial in box(storage), so that it only shows after first open drawer.
 
 #### ToLookAtLater:
-https://web.dev/variable-fonts/
+https://web.dev/variable-fonts/  
+https://pub.dev/packages/draggable_scrollbar  
+https://medium.com/zipper-studios/the-keyboard-causes-the-bottom-overflowed-error-5da150a1c660  
+https://pub.dev/packages/keyboard_avoider  
 
 > **Highlight:**
 The app 'runs' on my iPhone.
 
+
+
 ## Day 0.9 - 24. July 2020
 
 #### Today's Progress:
+Finetuning paddings for portrait and landscape. Removing iPad/Tablet version from scope in step 1. Cleaned open Browser tabs from yesterdays session.
+
+Added a finishedTutorial bool to storage and a saveFinishedTutorial to the controller. Which is no longer a SettingsController. I am not happy with that name. I'll have to split this into more controller.
+
+Playing with fontFamily. At first i finished the implementation of the [Raleway and RoboMono font](https://flutter.dev/docs/cookbook/design/fonts). But after endless copy/paste/edit the weight and style of each font in the pubspec.yaml i remembered the [google_fonts](https://pub.dev/packages/google_fonts) package.
+
+At the bottom of that page you find a topic on [Licensing Fons](https://pub.dev/packages/google_fonts#licensing-fonts) wich leeds to the [LicenseRegistry class](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html) and [LicensePage class](https://api.flutter.dev/flutter/material/LicensePage-class.html) - that is a todo!
+
+You can call GoogleFonts.getFont('Lato') but i was not able to pass a font name like bungeeShade, bungee_Shade, Bungee_Shade, BungeeShade. So i was 'limited' to one word fonts ;)
+
+Found an error in my random position calculation, that uses the TextField value.length. Turns out that an emoji has a different length...
+
+And my randomGoogleFont function is called multiple times. Besides that i'll have to check what happens if the user turns of the 'connectivity'. How long are the fonts cached?
+
+Refactored randomFont back to  local fonts, there were theses wired view rebuilds...
+
 #### Thoughts:
+I really need a todo app ;) - there are so many little userstories that i have in mind and as todos right here.
+I am keen on releasing the app on TestFlight, but there is so much todo before i create an archive in xcode...
+
 #### Links:
+
 #### ToDo:
+- There was a 'glitch' after a fresh rebuild (the first time) - check that (which code modification could be 'responsible')
+- save randomTextStyles to 'settings'
+
 #### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
+https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html  
+https://api.flutter.dev/flutter/material/LicensePage-class.html  
+https://pub.dev/packages/connectivity  
+
 > **Highlight:**
+If you copy (OS X) the [files in a folder](https://appleinsider.com/articles/18/02/27/tip-how-to-create-a-list-of-all-the-files-inside-a-macos-directory-in-seconds-with-textedit) and paste 'that' into a new file - you get a list of file names.
+
+
 
 ## Day 0.10 - 25. July 2020
 
