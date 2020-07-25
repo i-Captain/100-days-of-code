@@ -338,26 +338,67 @@ Changing the splash screen image is not yet working... both images are showing u
 
 Added more Google Fonts (now total 15)
 
-Added Positioned info button with onPressed showAboutDialog. Added OFL.txt with all font authors in assets/google_fonts... because await rootBundle.loadString depends on assets.
+Added Positioned info button with onPressed [showAboutDialog](https://api.flutter.dev/flutter/material/showAboutDialog.html). Added OFL.txt with all font authors in assets/google_fonts... because await rootBundle.loadString depends on assets.
 
 I can finally load and show the license stuff. Great :)
+
+Added TextAlign to my textPainter, i like that.
 
 #### Thoughts:
 This project takes way more time than i thought.
 
+#### Links:
+https://www.woolha.com/tutorials/flutter-using-aboutdialog-widget-examples  
+
 #### ToDo:
 - Refactor more code (cleanup settings model... rename it)
-- Use it for a couple of days (right now using it  makes so much fun)
+- Use it for a couple of days (right now using it makes so much fun)
 
 #### Todays Takeaway:
 I stayed focused and closed a lot of userstories
 
 > **Highlight:**
-A first beta is 'running' on my iPhone with only 2 warnings in xcode... with license page :) 
+A first beta is 'running' on my iPhone with only 2 warnings in xcode... with license page :)  
 The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow. And after some switing between some other apps, my app 'refreshes'...
 
 
 ## Day 0.11 - 26. July 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.12 - 27. July 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.13 - 28. July 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.14 - 29. July 2020
 
 #### Today's Progress:
 #### Thoughts:
