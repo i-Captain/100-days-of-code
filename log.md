@@ -332,24 +332,29 @@ If you copy (OS X) the [files in a folder](https://appleinsider.com/articles/18/
 ## Day 0.10 - 25. July 2020
 
 #### Today's Progress:
-Created a CalculationsController with this random FontAttribute 'calculations'. Added more local fonts, like Lobster and Codystar. No 'glitch' after flutter clean this time.
+Created a CalculationsController with random FontAttribute 'calculations'. Added more local fonts, like Lobster and Codystar. No 'glitch' after flutter clean this time.
 
 Changing the splash screen image is not yet working... both images are showing up... Changed initial background gradient to app icon colors.
 
+Added more Google Fonts (now total 15)
+
+Added Positioned info button with onPressed showAboutDialog. Added OFL.txt with all font authors in assets/google_fonts... because await rootBundle.loadString depends on assets.
+
+I can finally load and show the license stuff. Great :)
+
 #### Thoughts:
-This project takes way more time than i thought. And a lot of that extra time depends on the 'drawer' decision. In my first prototype i had this 'popup' which did not triggered the 'view rebuild' of my Custom Painter...
+This project takes way more time than i thought.
 
-#### Links:
 #### ToDo:
-- Change App Icon color or initial color gradient, create new Splashscreen.  
-- Add little 'question mark' in the left corner that handels the LicensePage stuff.
+- Refactor more code (cleanup settings model... rename it)
+- Use it for a couple of days (right now using it  makes so much fun)
 
-#### ToLookAtLater:
 #### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
-A first beta is 'running' on my iPhone with only 2 warnings in xcode.
+I stayed focused and closed a lot of userstories
 
+> **Highlight:**
+A first beta is 'running' on my iPhone with only 2 warnings in xcode... with license page :) 
+The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow. And after some switing between some other apps, my app 'refreshes'...
 
 
 ## Day 0.11 - 26. July 2020
