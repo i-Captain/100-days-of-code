@@ -318,7 +318,6 @@ I am keen on releasing the app on TestFlight, but there is so much todo before i
 
 #### ToDo:
 - There was a 'glitch' after a fresh rebuild (the first time) - check that (which code modification could be 'responsible')
-- save randomTextStyles to 'settings'
 
 #### ToLookAtLater:
 https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html  
@@ -333,13 +332,25 @@ If you copy (OS X) the [files in a folder](https://appleinsider.com/articles/18/
 ## Day 0.10 - 25. July 2020
 
 #### Today's Progress:
+Created a CalculationsController with this random FontAttribute 'calculations'. Added more local fonts, like Lobster and Codystar. No 'glitch' after flutter clean this time.
+
+Changing the splash screen image is not yet working... both images are showing up... Changed initial background gradient to app icon colors.
+
 #### Thoughts:
+This project takes way more time than i thought. And a lot of that extra time depends on the 'drawer' decision. In my first prototype i had this 'popup' which did not triggered the 'view rebuild' of my Custom Painter...
+
 #### Links:
 #### ToDo:
+- Change App Icon color or initial color gradient, create new Splashscreen.  
+- Add little 'question mark' in the left corner that handels the LicensePage stuff.
+
 #### ToLookAtLater:
 #### Todays Takeaway:
 #### Link(s) to work...
 > **Highlight:**
+A first beta is 'running' on my iPhone with only 2 warnings in xcode.
+
+
 
 ## Day 0.11 - 26. July 2020
 
