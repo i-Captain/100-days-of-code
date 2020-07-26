@@ -353,6 +353,7 @@ https://www.woolha.com/tutorials/flutter-using-aboutdialog-widget-examples
 #### ToDo:
 - Refactor more code (cleanup settings model... rename it)
 - Use it for a couple of days (right now using it makes so much fun)
+- Add padding for 'logo' at Licenses Page/View
 
 #### Todays Takeaway:
 I stayed focused and closed a lot of userstories
