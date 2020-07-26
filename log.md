@@ -363,7 +363,28 @@ A first beta is 'running' on my iPhone with only 2 warnings in xcode... with lic
 The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow. And after some switing between some other apps, my app 'refreshes'...
 
 
-## Day 0.11 - 26. July 2020
+## Day 0.11 _ Sunday - 26. July 2020
+
+#### Today's Progress:
+Fixed onHorizontalDragStart which was also called if the user is dragging vertically. In some cases when the app is 'closed/swiped', the drag event was 'fired'.
+
+Turns out, you need an empty onVerticalDragStart... after that the onHorizontalDragStart event works like expected.
+
+Closed more userstories, like padding @license and Chango font for 'tutorial'. The main.dart looks nearly ready.
+
+Canceled userstorie 'link to website in license popup text'. There is a good solution in the ['flutter gallery'](https://github.com/flutter/gallery/blob/master/lib/pages/about.dart) repo and i'll use it in the other projects first.
+
+#### Thoughts:
+After i used iMovie on my iPhone and switched back to eatsleeprepeat, the app 'restarted' like on the Galaxy J5 yesterday... Don't know right now if i want to save the FontFamily, FontWeight etc. attributes. Maybe in an update, so i can get some knowledge on that topic.
+
+#### Links:
+#### ToDo:
+- Refactore code, leftover from yesterday
+- Prepare beta for TestFlight
+- Make a video/screens for the AppStores. 
+
+
+## Day 0.12 _ Monday - 27. July 2020
 
 #### Today's Progress:
 #### Thoughts:
@@ -375,7 +396,7 @@ The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow
 > **Highlight:**
 
 
-## Day 0.12 - 27. July 2020
+## Day 0.13 _ Tuesday - 28. July 2020
 
 #### Today's Progress:
 #### Thoughts:
@@ -387,7 +408,7 @@ The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow
 > **Highlight:**
 
 
-## Day 0.13 - 28. July 2020
+## Day 0.14 _ Wednesday - 29. July 2020
 
 #### Today's Progress:
 #### Thoughts:
@@ -399,7 +420,43 @@ The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow
 > **Highlight:**
 
 
-## Day 0.14 - 29. July 2020
+## Day 0.15 _ Thursday - 30. July 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.16 _ Friday - 31. July 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.17 _ Saturday - 01. August 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.18 _ Sunday - 02. August 2020
 
 #### Today's Progress:
 #### Thoughts:
