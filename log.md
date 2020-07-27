@@ -9,7 +9,7 @@ I am starting with a couple of zero days, since I go on vacation in August and t
 The challenge includes several projects:
 - todo app (flutter firebase & sqlite)
 - Work Life Balance app (flutter moor)
-- simple flutter timetracking app
+- simple flutter time tracking app
 - ESCR (motivation flutter app)
 
 > Thats quite a scope, but X preparation days plus 100 days means 150 to 300 hours... We'll see what's possible.
@@ -17,7 +17,7 @@ The challenge includes several projects:
 ### Additional tasks:
 - Design
 - UX
-- Plattform specific behaviors and guidelines
+- Platform specific behaviors and guidelines
 - Setup Apple Store
 - Data Privacy
 - Internationalization
@@ -36,14 +36,14 @@ https://www.hackingwithswift.com/100/swiftui
 https://mobile.twitter.com/search?q=100DaysOfCode%20flutter&src=typed_query
 
 #### Today's Progress:
-Started project txtty with desktop macos enabled. Installed [supercharged](http://pub.dev/packages/) which only works iOS, Android and web (but who knows... until userstory 'parse_chat_messages', this could change). Added simple BottomNavigationBar with 3 empty views (dashboard, chats, settings).
+Started project txtty with desktop macOS enabled. Installed [supercharged](http://pub.dev/packages/) which only works iOS, Android and web (but who knows... until userstory 'parse_chat_messages', this could change). Added simple BottomNavigationBar with 3 empty views (dashboard, chats, settings).
 
 #### Thoughts:
 Thought i could use a shortcut with [settings_ui](https://pub.dev/packages/settings_ui) - but this package supports only iOS and Android.
 
 > The example of settings_ui uses [device_preview](https://pub.dev/packages/device_preview) - **that's a todo for the userstory 'flutter and responsive layout'**.
 
-In my ESCR project i use the [shared_preferences_settings](https://pub.dev/packages/shared_preferences_settings) package, wich supports web. But i think there was a textColor issue with my dark theme. I'll check this later, when i am working on that project.
+In my ESCR project i use the [shared_preferences_settings](https://pub.dev/packages/shared_preferences_settings) package, which supports web. But i think there was a textColor issue with my dark theme. I'll check this later, when i am working on that project.
 
 > ToFigureOut - How much additional time will it cost, to log the 100 days?
 
@@ -90,7 +90,7 @@ I think this basic research takes more time than i thought.
 ## Day 0.2 - 17. July 2020
 
 #### Today's Progress:
-Found [flutter get/getx](https://pub.dev/packages/get) package, which looks very promising. Created a new playground for only moor, statemanagement and firebase.
+Found [flutter get/getx](https://pub.dev/packages/get) package, which looks very promising. Created a new playground for only moor, state management and firebase.
 
 Playing again with moor code/examples. Upgraded the [ResoCoder/flutter-moor-tutorial](https://github.com/ResoCoder/flutter-moor-tutorial) to moor_flutter: ^3.1.0 (this example uses MultiProvider and DAOs).
 
@@ -128,7 +128,7 @@ pod install solved as well an error
 
 #### Link(s) to work...
 
-> **Highlight:** Found this flutter moor ['issue'](https://github.com/simolus3/moor/issues/151) wich leads to a really [nice moor shopping cart gist](https://github.com/simolus3/moor/issues/151)
+> **Highlight:** Found this flutter moor ['issue'](https://github.com/simolus3/moor/issues/151) which leads to a really [nice moor shopping cart gist](https://github.com/simolus3/moor/issues/151)
 
 ## Day 0.3 - 18. July 2020
 
@@ -192,7 +192,7 @@ Added 'GetX' and implemented first controller for the logic stuff.
 Played with sliders (link below)
 
 #### Thoughts:
-I'll have to reduce the features for stept 1. Remembered the agile [skateboard](https://m.dotdev.co/the-agile-bicycle-829a83b18e7) 
+I'll have to reduce the features for step 1. Remembered the agile [skateboard](https://m.dotdev.co/the-agile-bicycle-829a83b18e7) 
 
 #### Links:
 https://pub.dev/packages/flutter_xlider/  
@@ -221,7 +221,7 @@ There is a maxLength for TextField...
 ## Day 0.7 - 22. July 2020
 
 #### Today's Progress:
-A first alpha version is ready. Took much too long. Struggeled with CustomPainter and my RxSetting model. Code is still to cleanup and refactor.
+A first alpha version is ready. Took much too long. Struggled with CustomPainter and my RxSetting model. Code is still to cleanup and refactor.
 
 #### Thoughts:
 I am looking forward to use GetX with firebase or flutter_moor. 
@@ -230,7 +230,7 @@ I am looking forward to use GetX with firebase or flutter_moor.
 - Cleanup/refactor code. Add initial '-> swipe' word/content when app is installed.  
 - Create new App Icon, add App Icon and Splashscreen.  
 - Add little 'help' to explain the input and the double click 'action'.  
-- A litte 'close' icon int he drawer.
+- A little 'close' icon int he drawer.
 
 #### Todays Takeaway:
 ```
@@ -252,7 +252,7 @@ There is a Template-AppIcons-iOS.psd which gives an idea for the proportions of 
 ![](assets/0.8-apple-design-resources-app-icon-template.png)
 ![](assets/0.8-ESR-Template-AppIcons-iOS.png)
 
-After broken builds (provision profil something) and a reboot of my macbook and the iphone, i was able to build the app on my iPhone. There are 42 warnings... for the deleted shared_preferences, Setter for 'isStatusBarHidden' was deprecated..., Initialization of variable 'flutter_native_splash' was never used... [explanation](https://github.com/matwright/AnimalFarmRevisionApp/issues/36) which links to the [flutter build modes](https://flutter.dev/docs/testing/build-modes).
+After broken builds (provision profile something) and a reboot of my MacBook and the iPhone, i was able to build the app on my iPhone. There are 42 warnings... for the deleted shared_preferences, Setter for 'isStatusBarHidden' was deprecated..., Initialization of variable 'flutter_native_splash' was never used... [explanation](https://github.com/matwright/AnimalFarmRevisionApp/issues/36) which links to the [flutter build modes](https://flutter.dev/docs/testing/build-modes).
 
 Inspected the app 'tree' with [devtools](https://stackoverflow.com/questions/53381536/how-to-use-flutters-widget-inspector-in-visual-studio-code) because on the iPhone there was a thin white line when the drawer was open.
 
@@ -294,13 +294,13 @@ The app 'runs' on my iPhone.
 ## Day 0.9 - 24. July 2020
 
 #### Today's Progress:
-Finetuning paddings for portrait and landscape. Removing iPad/Tablet version from scope in step 1. Cleaned open Browser tabs from yesterdays session.
+Fine tuning paddings for portrait and landscape. Removing iPad/Tablet version from scope in step 1. Cleaned open Browser tabs from yesterdays session.
 
 Added a finishedTutorial bool to storage and a saveFinishedTutorial to the controller. Which is no longer a SettingsController. I am not happy with that name. I'll have to split this into more controller.
 
 Playing with fontFamily. At first i finished the implementation of the [Raleway and RoboMono font](https://flutter.dev/docs/cookbook/design/fonts). But after endless copy/paste/edit the weight and style of each font in the pubspec.yaml i remembered the [google_fonts](https://pub.dev/packages/google_fonts) package.
 
-At the bottom of that page you find a topic on [Licensing Fons](https://pub.dev/packages/google_fonts#licensing-fonts) wich leeds to the [LicenseRegistry class](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html) and [LicensePage class](https://api.flutter.dev/flutter/material/LicensePage-class.html) - that is a todo!
+At the bottom of that page you find a topic on [Licensing Fons](https://pub.dev/packages/google_fonts#licensing-fonts) which leeds to the [LicenseRegistry class](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html) and [LicensePage class](https://api.flutter.dev/flutter/material/LicensePage-class.html) - that is a todo!
 
 You can call GoogleFonts.getFont('Lato') but i was not able to pass a font name like bungeeShade, bungee_Shade, Bungee_Shade, BungeeShade. So i was 'limited' to one word fonts ;)
 
@@ -360,7 +360,7 @@ I stayed focused and closed a lot of userstories
 
 > **Highlight:**
 A first beta is 'running' on my iPhone with only 2 warnings in xcode... with license page :)  
-The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow. And after some switing between some other apps, my app 'refreshes'...
+The beta also 'runs' on my Galaxy J5(2016) :) - the sliding is a little bit slow. And after some switching between some other apps, my app 'refreshes'...
 
 
 ## Day 0.11 _ Sunday - 26. July 2020
@@ -379,22 +379,31 @@ After i used iMovie on my iPhone and switched back to eatsleeprepeat, the app 'r
 
 #### Links:
 #### ToDo:
-- Refactore code, leftover from yesterday
-- Prepare beta for TestFlight
-- Make a video/screens for the AppStores. 
-
+- Refactor code, leftover from yesterday
 
 ## Day 0.12 _ Monday - 27. July 2020
 
 #### Today's Progress:
+Finished first part refactoring. And as a bonus story - some basic TextStyleVariants are saved to a get_storage box. So the the 'App State' loads after quitting and restarting the app. 
+
+Reverted the concept of 2 different controllers in this refactor step. Primary goal was the storage and cleanup part.
+
+Cmd+Shift+K in Xcode fixed my Stale file build/ios/Debug-iphonesimulator... problem
+
 #### Thoughts:
-#### Links:
+I am impatient, it takes so long to debug some errors...
+
 #### ToDo:
+- Delete old Android splash screen png
+- Fix wrong height/width in WaitingContainer if null
+- Prepare beta for TestFlight
+- Make a video/screens for the AppStores. 
+
 #### ToLookAtLater:
 #### Todays Takeaway:
 #### Link(s) to work...
 > **Highlight:**
-
+The new beta build 'runs' on my iPhone (with no more xcode warnings) and the Galaxy J5.
 
 ## Day 0.13 _ Tuesday - 28. July 2020
 
