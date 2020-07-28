@@ -267,10 +267,10 @@ There is always 'some time' that is not calc
 
 #### Links:
 https://pub.dev/packages/animated_text_kit  
-https://www.youtube.com/watch?v=YPLs3xrDcm0  
-https://www.youtube.com/watch?v=NFTaWkUtD34  
-https://www.youtube.com/watch?v=NT-W5sAarco  
-https://www.youtube.com/watch?v=o2KveVr7adg  
+https://www.youtube.com/watch?v=YPLs3xrDcm0 (Deployment iOS - CodeWithChris)  
+https://www.youtube.com/watch?v=NFTaWkUtD34 (Deploy Google Play Store - Amateur Coder)  
+https://www.youtube.com/watch?v=NT-W5sAarco (Deploy Apple App Store - Amateur Coder)  
+https://www.youtube.com/watch?v=o2KveVr7adg (ConstrainedBox)  
 https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html  
 https://flutter.dev/docs/cookbook/forms/focus
 
@@ -395,9 +395,7 @@ I am impatient, it takes so long to debug some errors...
 
 #### ToDo:
 - Delete old Android splash screen png
-- Fix wrong height/width in WaitingContainer if null
 - Prepare beta for TestFlight
-- Make a video/screens for the AppStores. 
 
 #### ToLookAtLater:
 #### Todays Takeaway:
@@ -408,13 +406,47 @@ The new beta build 'runs' on my iPhone (with no more xcode warnings) and the Gal
 ## Day 0.13 _ Tuesday - 28. July 2020
 
 #### Today's Progress:
+Added a [clear suffixIcon to the TextField InputDecoration](https://medium.com/@jtmuller5_98869/adding-a-clear-icon-to-the-textfield-widget-in-flutter-d9e9251ad213) and an easter egg in the about dialog. A doubleTap clears the storage box.
+
+While debugging some position bugs, i changed the opacity of the backgoundOverlay. Guess what, that was such a good idea - i added it as another random factor.
+
+Registered the app at developer.apple and - [didn't check the Fonts Capability](https://stackoverflow.com/questions/58510316/apple-developer-what-is-the-fonts-capability-under-register-an-app-id-for) 
+
+Had some problems registering the app name. I think i choose this name in the past... 
+
+Reverted the splash screen from 'just' black (was a bad user experience) back to the app icon. 
+
+Deleted some line from the AppDelegate.swift in Xcode, because an error Use of unresolved identifier 'GeneratedPluginRegistrant'. That didn't work. So flutter clean again and flutter run. Fine on the simulator...
+
+But pod install had some warnings.. new build ios... and so on...
+
+Turns out [i am not alone with problems](https://durveshnaik.com/flutter-ios-build-issues-and-solutions/) to build my ios flutter app.
+
+But in the end i uploaded successfully my archive to App Store Connect 🏄🏻‍♂️ - switched to TestFlight needed more text and checkmarks. Invite external TestFlight users is for tomorrow. 
+
+Started signup and registering the app at the Google Play Console. Uploaded the first .aab
+
 #### Thoughts:
+Sometimes there are these wired bugs... xcode - 'running eat sleep repeat on iPhone'... but nothing happens. Unable to install "eat sleep repeat" ... Device doesn’t support wireless sync... So update iOS, restart macBook and then give it another try.
+
+App development takes so much extra time. I hope this gets better someday.
+
 #### Links:
+https://github.com/flutter/flutter/issues/46613  
+https://guides.cocoapods.org/syntax/podfile.html#platform  
+https://www.youtube.com/watch?v=NT-W5sAarco (Deploying Flutter App to App Store)  
+https://www.raywenderlich.com/5352-testflight-tutorial-ios-beta-testing#toc-anchor-005  
+https://www.youtube.com/watch?v=NFTaWkUtD34 (Deploying Flutter App to Play Store) 
+
+
 #### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
+- Random capitalize first letter
+- Prepare [Beta App Review](https://help.apple.com/xcode/mac/current/#/dev2539d985f)
+- Make screens for the AppStores. 
+- More research on topic License Agreement and Privacy Policy
+
 > **Highlight:**
+Setup App Store Connect 'internal' user Mark Marketing with a new Apple user ID on an old iPhone 6. Installed TestFlight and downloaded/installed the first build. Started the Google Play Store Setup.
 
 
 ## Day 0.14 _ Wednesday - 29. July 2020
