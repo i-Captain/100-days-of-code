@@ -36,12 +36,12 @@ https://www.hackingwithswift.com/100/swiftui
 https://mobile.twitter.com/search?q=100DaysOfCode%20flutter&src=typed_query
 
 #### Today's Progress:
-Started project txtty with desktop macOS enabled. Installed [supercharged](http://pub.dev/packages/) which only works iOS, Android and web (but who knows... until userstory 'parse_chat_messages', this could change). Added simple BottomNavigationBar with 3 empty views (dashboard, chats, settings).
+Started project txtty with desktop macOS enabled. Installed [supercharged](http://pub.dev/packages/) which only works iOS, Android and web (but who knows... until user story 'parse_chat_messages', this could change). Added simple BottomNavigationBar with 3 empty views (dashboard, chats, settings).
 
 #### Thoughts:
 Thought i could use a shortcut with [settings_ui](https://pub.dev/packages/settings_ui) - but this package supports only iOS and Android.
 
-> The example of settings_ui uses [device_preview](https://pub.dev/packages/device_preview) - **that's a todo for the userstory 'flutter and responsive layout'**.
+> The example of settings_ui uses [device_preview](https://pub.dev/packages/device_preview) - **that's a todo for the user story 'flutter and responsive layout'**.
 
 In my ESCR project i use the [shared_preferences_settings](https://pub.dev/packages/shared_preferences_settings) package, which supports web. But i think there was a textColor issue with my dark theme. I'll check this later, when i am working on that project.
 
@@ -300,7 +300,7 @@ Added a finishedTutorial bool to storage and a saveFinishedTutorial to the contr
 
 Playing with fontFamily. At first i finished the implementation of the [Raleway and RoboMono font](https://flutter.dev/docs/cookbook/design/fonts). But after endless copy/paste/edit the weight and style of each font in the pubspec.yaml i remembered the [google_fonts](https://pub.dev/packages/google_fonts) package.
 
-At the bottom of that page you find a topic on [Licensing Fons](https://pub.dev/packages/google_fonts#licensing-fonts) which leeds to the [LicenseRegistry class](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html) and [LicensePage class](https://api.flutter.dev/flutter/material/LicensePage-class.html) - that is a todo!
+At the bottom of that page you find a topic on [Licensing Fonts](https://pub.dev/packages/google_fonts#licensing-fonts) which leeds to the [LicenseRegistry class](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html) and [LicensePage class](https://api.flutter.dev/flutter/material/LicensePage-class.html) - that is a todo!
 
 You can call GoogleFonts.getFont('Lato') but i was not able to pass a font name like bungeeShade, bungee_Shade, Bungee_Shade, BungeeShade. So i was 'limited' to one word fonts ;)
 
@@ -311,7 +311,7 @@ And my randomGoogleFont function is called multiple times. Besides that i'll hav
 Refactored randomFont back to  local fonts, there were theses wired view rebuilds...
 
 #### Thoughts:
-I really need a todo app ;) - there are so many little userstories that i have in mind and as todos right here.
+I really need a todo app ;) - there are so many little user stories that i have in mind and as todos right here.
 I am keen on releasing the app on TestFlight, but there is so much todo before i create an archive in xcode...
 
 #### Links:
@@ -356,7 +356,7 @@ https://www.woolha.com/tutorials/flutter-using-aboutdialog-widget-examples
 - Add padding for 'logo' at Licenses Page/View
 
 #### Todays Takeaway:
-I stayed focused and closed a lot of userstories
+I stayed focused and closed a lot of user stories
 
 > **Highlight:**
 A first beta is 'running' on my iPhone with only 2 warnings in xcode... with license page :)  
@@ -370,9 +370,9 @@ Fixed onHorizontalDragStart which was also called if the user is dragging vertic
 
 Turns out, you need an empty onVerticalDragStart... after that the onHorizontalDragStart event works like expected.
 
-Closed more userstories, like padding @license and Chango font for 'tutorial'. The main.dart looks nearly ready.
+Closed more user stories, like padding @license and Chango font for 'tutorial'. The main.dart looks nearly ready.
 
-Canceled userstorie 'link to website in license popup text'. There is a good solution in the ['flutter gallery'](https://github.com/flutter/gallery/blob/master/lib/pages/about.dart) repo and i'll use it in the other projects first.
+Canceled user story 'link to website in license popup text'. There is a good solution in the ['flutter gallery'](https://github.com/flutter/gallery/blob/master/lib/pages/about.dart) repo and i'll use it in the other projects first.
 
 #### Thoughts:
 After i used iMovie on my iPhone and switched back to eatsleeprepeat, the app 'restarted' like on the Galaxy J5 yesterday... Don't know right now if i want to save the FontFamily, FontWeight etc. attributes. Maybe in an update, so i can get some knowledge on that topic.
@@ -408,7 +408,7 @@ The new beta build 'runs' on my iPhone (with no more xcode warnings) and the Gal
 #### Today's Progress:
 Added a [clear suffixIcon to the TextField InputDecoration](https://medium.com/@jtmuller5_98869/adding-a-clear-icon-to-the-textfield-widget-in-flutter-d9e9251ad213) and an easter egg in the about dialog. A doubleTap clears the storage box.
 
-While debugging some position bugs, i changed the opacity of the backgoundOverlay. Guess what, that was such a good idea - i added it as another random factor.
+While debugging some position bugs, i changed the opacity of the backgroundOverlay. Guess what, that was such a good idea - i added it as another random factor.
 
 Registered the app at developer.apple and - [didn't check the Fonts Capability](https://stackoverflow.com/questions/58510316/apple-developer-what-is-the-fonts-capability-under-register-an-app-id-for) 
 
@@ -422,7 +422,7 @@ But pod install had some warnings.. new build ios... and so on...
 
 Turns out [i am not alone with problems](https://durveshnaik.com/flutter-ios-build-issues-and-solutions/) to build my ios flutter app.
 
-But in the end i uploaded successfully my archive to App Store Connect 🏄🏻‍♂️ - switched to TestFlight needed more text and checkmarks. Invite external TestFlight users is for tomorrow. 
+But in the end i uploaded successfully my archive to App Store Connect 🏄🏻‍♂️ - switched to TestFlight needed more text and stuff. Invite external TestFlight users is for tomorrow. 
 
 Started signup and registering the app at the Google Play Console. Uploaded the first .aab
 
@@ -452,13 +452,31 @@ Setup App Store Connect 'internal' user Mark Marketing with a new Apple user ID 
 ## Day 0.14 _ Wednesday - 29. July 2020
 
 #### Today's Progress:
+Fixed the TextField bug, added [focusedBorder Color](https://stackoverflow.com/questions/49600139/how-to-change-textfield-underline-color) to the TextField.
+
+Moved code into master branch and created production branch.
+
 #### Thoughts:
+What a ride yesterday, but now i am getting 'cold feet'. So much small stuff todo, Screenshots and 'marketing text'. I am postponing the first beta phase to the beginning of next week. This is called 100 days of code...
+
+Changed yesterday in build.gradle debug to release. I hope i remember all steps in a few days when i upload the next update.
+
+
 #### Links:
+https://www.appypie.com/faqs/do-you-have-a-template-or-sample-of-app-end-user-license-agreement  
+
 #### ToDo:
+
 #### ToLookAtLater:
+https://www.youtube.com/watch?v=nq43mP7hjAE (flutter devtools)  
+
 #### Todays Takeaway:
+Added [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to vscode and fixed some 'spelling' in this log.
+
 #### Link(s) to work...
 > **Highlight:**
+
+> ### **Attention:** I have read some posts about EU / US Privacy Shield is ineffective (in german so no links) - thats a research todo for using firebase.
 
 
 ## Day 0.15 _ Thursday - 30. July 2020
