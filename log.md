@@ -448,19 +448,21 @@ https://www.youtube.com/watch?v=NFTaWkUtD34 (Deploying Flutter App to Play Store
 > **Highlight:**
 Setup App Store Connect 'internal' user Mark Marketing with a new Apple user ID on an old iPhone 6. Installed TestFlight and downloaded/installed the first build. Started the Google Play Store Setup.
 
+![](assets/0.13-app-store-connect-upload.gif)
 
 ## Day 0.14 _ Wednesday - 29. July 2020
 
 #### Today's Progress:
 Fixed the TextField bug, added [focusedBorder Color](https://stackoverflow.com/questions/49600139/how-to-change-textfield-underline-color) to the TextField.
 
-Moved code into master branch and created production branch.
+Merged code into master branch and created production branch.
+
+Played with firebase and todo draft.
 
 #### Thoughts:
 What a ride yesterday, but now i am getting 'cold feet'. So much small stuff todo, Screenshots and 'marketing text'. I am postponing the first beta phase to the beginning of next week. This is called 100 days of code...
 
 Changed yesterday in build.gradle debug to release. I hope i remember all steps in a few days when i upload the next update.
-
 
 #### Links:
 https://www.appypie.com/faqs/do-you-have-a-template-or-sample-of-app-end-user-license-agreement  
