@@ -459,6 +459,8 @@ Merged code into master branch and created production branch.
 
 Played with firebase and todo draft.
 
+Created first app icon drafts in illustrator.
+
 #### Thoughts:
 What a ride yesterday, but now i am getting 'cold feet'. So much small stuff todo, Screenshots and 'marketing text'. I am postponing the first beta phase to the beginning of next week. This is called 100 days of code...
 
@@ -475,23 +477,27 @@ https://www.youtube.com/watch?v=nq43mP7hjAE (flutter devtools)
 #### Todays Takeaway:
 Added [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) to vscode and fixed some 'spelling' in this log.
 
-#### Link(s) to work...
-> **Highlight:**
-
 > ### **Attention:** I have read some posts about EU / US Privacy Shield is ineffective (in german so no links) - thats a research todo for using firebase.
 
 
 ## Day 0.15 _ Thursday - 30. July 2020
 
 #### Today's Progress:
-#### Thoughts:
-#### Links:
-#### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+Finished first app icon and splash screen icon for new project. Played with [dash_chat](https://pub.dev/packages/dash_chat) and firebase.
 
+Added app icon and splash screen to master branch. I reverted the changes in AppDelegate.swift and Info.plist after the use of [flutter_native_splash](https://pub.dev/packages/flutter_native_splash). Hidden status bar was marked by Xcode so i removed it in eatsleeprepeat project and that seems to be ok.
+
+Forked dash_chat and changed some 'stuff'. Included the forked [local package in my pubspec.yaml](https://stackoverflow.com/questions/51238420/how-to-use-local-flutter-package-in-another-flutter-application) and looked into the 'code'. 
+
+It's so cool to see how this package is 'coded'. So much comments - so much work. All these flutter developers out there, contributing there work. So nice 🤓
+
+#### Thoughts:
+I like the logo draft. The background blue is not my final choice, but who cares. Made some sketches for the 'db' collections. 
+
+#### ToDo:
+- Look into firebase rules
+> **Highlight:**
+A new project is running on the simulator with an app icon / splash screen and a basic BottomNavigation with 3 'pages'.
 
 ## Day 0.16 _ Friday - 31. July 2020
 
