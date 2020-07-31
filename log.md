@@ -502,13 +502,12 @@ A new project is running on the simulator with an app icon / splash screen and a
 ## Day 0.16 _ Friday - 31. July 2020
 
 #### Today's Progress:
+Played with Get.Routes and [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view) which has an example_6 with resizing tile. Great for later ;) For now without resizing, what i need for a dashboard.
+
+Did some research for HealthKit and flutter.
+
 #### Thoughts:
-#### Links:
-#### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+It's late and friday. Until tomorrow.
 
 
 ## Day 0.17 _ Saturday - 01. August 2020
