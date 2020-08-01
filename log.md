@@ -502,21 +502,44 @@ A new project is running on the simulator with an app icon / splash screen and a
 ## Day 0.16 _ Friday - 31. July 2020
 
 #### Today's Progress:
-Played with Get.Routes and [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view) which has an example_6 with resizing tile. Great for later ;) For now without resizing, what i need for a dashboard.
+Played with Get.Routes and [flutter_staggered_grid_view](https://pub.dev/packages/flutter_staggered_grid_view) which has an [example_6](https://github.com/letsar/flutter_staggered_grid_view/blob/master/example/lib/example_6.dart) with resizing tile. Great for later ;) For now without resizing, a basic implementation is what i need for my dashboard draft.
 
-Did some research for HealthKit and flutter.
+Did some research for HealthKit and flutter. I will test [health](https://pub.dev/packages/health/example), [fit_kit](https://pub.dev/packages/fit_kit/example) and [flutter_health](https://pub.dev/packages/flutter_health). My search for HKWorkoutSession (iOS Workouts) was negative.
 
 #### Thoughts:
 It's late and friday. Until tomorrow.
+#### Links:
+https://www.raywenderlich.com/6992-healthkit-tutorial-with-swift-workouts  
+https://github.com/feMoraes0/fitness-ui  
+
+#### ToDo:
+- Store mindful minutes https://dev.to/svenhennessen/a-first-look-at-flutter-4ec9
+
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
 
 
 ## Day 0.17 _ Saturday - 01. August 2020
 
 #### Today's Progress:
+Early bird session with [flutter_slidable](https://pub.dev/packages/flutter_slidable) and cleaning up open tabs with some logging.
+
 #### Thoughts:
+One of my challenge goals is the ability to get a better understanding of 'how long does it take to develop an app', 'how long does it take to implement features', 'deploy, debug...' - things like that.
+
+An in the end a better basis of calculation for future client projects.
+
 #### Links:
+https://medium.com/flutter-community/mobile-app-development-cost-understanding-the-app-budget-by-app-type-in-2020-495c87aabf76  
+
 #### ToDo:
+- Research for firebase rules
+
 #### ToLookAtLater:
+https://github.com/tadaspetra/getx_examples  
+
 #### Todays Takeaway:
 #### Link(s) to work...
 > **Highlight:**
