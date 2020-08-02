@@ -526,6 +526,8 @@ https://github.com/feMoraes0/fitness-ui
 #### Today's Progress:
 Early bird session with [flutter_slidable](https://pub.dev/packages/flutter_slidable) and cleaning up open tabs with some logging.
 
+Found an OrientationBuilder in the slidable example.
+
 #### Thoughts:
 One of my challenge goals is the ability to get a better understanding of 'how long does it take to develop an app', 'how long does it take to implement features', 'deploy, debug...' - things like that.
 
@@ -540,12 +542,72 @@ https://medium.com/flutter-community/mobile-app-development-cost-understanding-t
 #### ToLookAtLater:
 https://github.com/tadaspetra/getx_examples  
 
+
+## Day 0.18 _ Sunday - 02. August 2020
+
+#### Today's Progress:
+Got lost in too much features and open browser tabs. Playing with firebase and chat. Working still an branch 'somethings_wrong'... Fixed the 'wrong' and after that i had this 'run', so much worked fine and i thought 'ok if this ist so easy, lets try another idea'.
+
+And now i have too much files and ideas... 
+
+Played with [modal_bottom_sheet](https://pub.dev/packages/modal_bottom_sheet), [popup_menu](https://github.com/chinabrant/popup_menu) and the [CupertinoContextMenu](https://api.flutter.dev/flutter/cupertino/CupertinoContextMenu-class.html)/ [previewBuilder](https://api.flutter.dev/flutter/cupertino/CupertinoContextMenu/previewBuilder.html)
+
+#### Thoughts:
+Tomorrow i'll go back to eatsleeprepeat and optimize the code and maybe the drawer. Make some screenshots for the stores. Have a little rest from firebase.
+
+#### Links:
+https://www.youtube.com/watch?v=bBL9yq1wwvI  
+Firebase Pagination https://morioh.com/p/5f0c0714bc09  
+Slack Clone https://codepen.io/mkiisoft/pen/XWmGdxL  
+https://github.com/MarcusNg/flutter_chat_ui  
+https://github.com/theindianappguy/FlutterChatAppTutorial  
+https://github.com/Hash-Studios/chatme-flutter  
+https://github.com/duytq94/flutter-chat-demo  
+https://medium.com/firebase-tips-tricks/how-to-use-cloud-firestore-in-flutter-9ea80593ca40  
+https://petercoding.com/firebase/2020/05/06/using-firebase-storage-in-flutter/  
+https://dev.to/flutterclutter/flutter-game-tutorial-fruit-slicing-25fh CustomPainter (not my topic anymore)  
+
+#### ToLookAtLater:
+https://github.com/janoodleFTW/timy-messenger (so much code to look at :) and firebase rules included 🙏  
+https://flutter.dev/docs/development/ui/widgets/cupertino  
+https://github.com/Solido/awesome-flutter  
+https://pub.dev/packages/giphy_picker  
+https://github.com/Wizpna/chatbot  
+https://medium.com/@adityadroid/60-days-of-flutter-building-a-messenger-day-55-56-deploying-firestore-security-rules-using-d8d78fd1eeea  
+https://github.com/adityadroid/Messio 🙏
+
+#### Todays Takeaway:
+Too much fun - needs a lot of cleanup time ;)
+
+> **Highlight:**
+Closed/logged all open tabs. Moved Desktop 'stuff' to folders and trash.
+
+
+## Day 0.19 _ Monday - 03. August 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
 #### Todays Takeaway:
 #### Link(s) to work...
 > **Highlight:**
 
 
-## Day 0.18 _ Sunday - 02. August 2020
+## Day 0.20 _ Tuesday - 04. August 2020
+
+#### Today's Progress:
+#### Thoughts:
+#### Links:
+#### ToDo:
+#### ToLookAtLater:
+#### Todays Takeaway:
+#### Link(s) to work...
+> **Highlight:**
+
+
+## Day 0.21 _ Wednesday - 05. August 2020
 
 #### Today's Progress:
 #### Thoughts:
