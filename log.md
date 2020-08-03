@@ -586,13 +586,12 @@ Closed/logged all open tabs. Moved Desktop 'stuff' to folders and trash.
 ## Day 0.19 _ Monday - 03. August 2020
 
 #### Today's Progress:
+Played again with GetX and Firebase. GetX **[Controller deleted from memory](https://github.com/jonataslaw/getx/issues/141)** error, yesterday morning everything was ok... so wired...
+
+The actual GetX examples makes use of bindings, provider and repository...  Compared the folder/file structure with [getx_pattern example](https://github.com/kauemurakami/getx_pattern/tree/master/getx_pattern_example) 
+
 #### Thoughts:
-#### Links:
-#### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+I have to stick to the plan 'go on with' eatsleeprepeat.
 
 
 ## Day 0.20 _ Tuesday - 04. August 2020
