@@ -617,6 +617,13 @@ https://medium.com/swlh/lessons-learned-after-making-the-first-10-commercial-app
 https://medium.com/@stasheq/scale-whole-app-or-widget-contents-to-a-screen-size-in-flutter-e3be161b5ab4  
 #### ToDo:
 - Get.lazyPut
+#### ToLookAtLater:
+https://medium.com/@rajeshjr/flutter-firebase-user-offline-while-internet-is-lost-90e3a43f3d14  
+https://stackoverflow.com/questions/55436007/flutter-firestore-take-long-retrieving-data-while-offline  
+https://stackoverflow.com/questions/53549773/using-offline-persistence-in-firestore-in-a-flutter-app  
+
+#### Todays Takeaway:
+https://pub.dev/packages/get#advantages => Use streams only if necessary. You can use your StreamControllers inside your controller normally, and use StreamBuilder also normally, but remember, a stream reasonably consumes memory, reactive programming is beautiful, but you shouldn't abuse it.
 
 
 ## Day 0.21 _ Wednesday - 05. August 2020
