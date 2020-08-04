@@ -590,20 +590,33 @@ Played again with GetX and Firebase. GetX **[Controller deleted from memory](htt
 
 The actual GetX examples makes use of bindings, provider and repository...  Compared the folder/file structure with [getx_pattern example](https://github.com/kauemurakami/getx_pattern/tree/master/getx_pattern_example) 
 
+I couldn't let go of fixing the 'Controller deleted from memory' error. It was so disappointing to have a list of todos, 'route' to the add_todo_view, create one and Get.back()... and with a deleted Controller no added todo in the list.
+
+Tried the getx_pattern and getx_example - but in combination with my BottomNavigationBar and the firebase Auth... the error remains.
+
+In a late session i started a new branch with a basic firebase auth and a todo model, controller and a service. Had some problems with '' - added the 'puts' but i'll have to look deeper into GetX Bindings and Get.lazyPut()
+
+
 #### Thoughts:
 I have to stick to the plan 'go on with' eatsleeprepeat.
+
+> **Highlight:**
+Fingers crossed - (today which is tomorrow ;) the error didn't show up after a 'flutter run'
 
 
 ## Day 0.20 _ Tuesday - 04. August 2020
 
 #### Today's Progress:
+Played with GetX, Obx, GetXController => builder, GetWidgetController and so on.
+
 #### Thoughts:
+I decided to 'let go' of the idea 'making eatsleeprepeat store ready'. This preparation for the 100 days code challenge ends tomorrow evening and holiday starts 🏄🏻‍♂️  
+
 #### Links:
+https://medium.com/swlh/lessons-learned-after-making-the-first-10-commercial-apps-in-flutter-f420808048cd  
+https://medium.com/@stasheq/scale-whole-app-or-widget-contents-to-a-screen-size-in-flutter-e3be161b5ab4  
 #### ToDo:
-#### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
-> **Highlight:**
+- Get.lazyPut
 
 
 ## Day 0.21 _ Wednesday - 05. August 2020
