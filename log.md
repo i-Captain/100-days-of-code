@@ -615,8 +615,10 @@ I decided to 'let go' of the idea 'making eatsleeprepeat store ready'. This prep
 #### Links:
 https://medium.com/swlh/lessons-learned-after-making-the-first-10-commercial-apps-in-flutter-f420808048cd  
 https://medium.com/@stasheq/scale-whole-app-or-widget-contents-to-a-screen-size-in-flutter-e3be161b5ab4  
+
 #### ToDo:
-- Get.lazyPut
+- Get.lazyPut  
+
 #### ToLookAtLater:
 https://medium.com/@rajeshjr/flutter-firebase-user-offline-while-internet-is-lost-90e3a43f3d14  
 https://stackoverflow.com/questions/55436007/flutter-firestore-take-long-retrieving-data-while-offline  
@@ -629,10 +631,33 @@ https://pub.dev/packages/get#advantages => Use streams only if necessary. You ca
 ## Day 0.21 _ Wednesday - 05. August 2020
 
 #### Today's Progress:
+Checked my time tracking app project to see how much time i spent the last 21 days.
+
+Refactored the code and removed [carousel_slider](https://pub.dev/packages/carousel_slider). I had this overflow error with my BottomNavigationBar. So i played with [PageViewBuilder](https://api.flutter.dev/flutter/widgets/PageView/PageView.builder.html) found [this on stackoverflow](https://stackoverflow.com/questions/51607440/horizontally-scrollable-cards-with-snap-effect-in-flutter) and used the PageStorageKey the first time :)
+
+I still have this 'bottom overflowed by x pixels bug' on my iPhone (which didn't show up in the iPhone 8 Simulator), so i have to fix this after my holiday.
+
 #### Thoughts:
+What an amazing 21 days so far. I have learned so much. I was able to try out a large part of my ideas. 
+
+My time tracking app 'shows', that i have spent 128 hours so far...
+
+Next time i have to log more detailed what time i spent on which topic. Like 'design', 'debugging', 'learning'...
+
 #### Links:
+https://medium.com/swlh/lessons-learned-after-making-the-first-10-commercial-apps-in-flutter-f420808048cd  
+
 #### ToDo:
+- Use Transform.scale for a different checkbox size. 
+- Get more knowledge on topic [Regex ](https://stackoverflow.com/questions/51010366/regex-match-digits-between-strings/51010792#51010792)
+- Research on how to build 'search/filter' - checkout [flappy_search_bar](https://pub.dev/packages/flappy_search_bar) 
+
 #### ToLookAtLater:
-#### Todays Takeaway:
-#### Link(s) to work...
+https://www.youtube.com/watch?v=VNXM4ez9Nf0&app=desktop  
+https://material.io/components/backdrop  
+https://www.filledstacks.com/snippet/custom-sticky-headers-in-flutter/  
+https://github.com/rvamsikrishna/flutter_todos_redux  
+https://github.com/giantsol/Blue-Diary (Bloc Pattern with sqflite and firebase) 🤓  
+
 > **Highlight:**
+Finished 3 weeks of flutter development 🚀 and i am looking forward to go on / start the Coding Challenge.
